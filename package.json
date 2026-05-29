@@ -1,0 +1,41 @@
+{
+  "name": "google-oauth2-playground-auth",
+  "version": "0.1.0",
+  "description": "Get Google OAuth tokens via OAuth Playground",
+  "type": "module",
+  "bin": {
+    "google-oauth2-playground-auth": "./src/app.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "google",
+    "oauth",
+    "tokens",
+    "authentication",
+    "playground",
+    "cli"
+  ],
+  "author": "David Bertouille <dbertouille@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbertouille/google-oauth2-playground-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dbertouille/google-oauth2-playground-auth/issues"
+  },
+  "homepage": "https://github.com/dbertouille/google-oauth2-playground-auth#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1"
+  }
+}

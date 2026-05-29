@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Development environment
+.devbox/
+
+# ESLint
+.eslintcache
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Coverage
+coverage/
+
+# Build outputs
+dist/

@@ -1,0 +1,11 @@
+{
+  "packages": {
+    "nodejs": "26.2.0"
+  },
+  "shell": {
+    "init_hook": [
+      "npm install"
+    ]
+  }
+}
+
